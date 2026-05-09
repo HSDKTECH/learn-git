@@ -2,7 +2,7 @@ public class HelloWorld {
 
     public static void main(String[] args) {
 
-        System.out.println("Hello, World!");
+        System.out.println("Hello,World!");
 
     }
 }
@@ -15,10 +15,11 @@ public class UserInput {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter your name: ");
+        System.out.print("Enter your sur name: ");
         String name = sc.nextLine();
 
-        System.out.println("Hello " + name);
+        System.out.println("Hello Hi" + name);
+
 
         sc.close();
     }
